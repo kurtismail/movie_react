@@ -60,7 +60,7 @@ const MovieDetail = () => {
                   to={-1}
                   className="text-blue-600 p-1 bg-[#36bd1e] hover:text-blue-700 transition duration-300 ease-in-out mb-4"
                 >
-                  Go Back
+                  Back
                 </Link>
               </li>
             </ul>
