@@ -41,7 +41,7 @@ const MovieDetail = () => {
           <div className="p-6 flex flex-col justify-between">
             <div>
               <h5 className="text-gray-900 text-xl font-medium mb-2">
-                Overview
+                overview
               </h5>
               <p className="text-gray-700 text-base mb-4">{overview}</p>
             </div>
