@@ -4,6 +4,7 @@ import avatar from "../assets/icons/avatar.png";
 import { logOut } from "../auth/firebase";
 import { AuthContext } from "../context/AuthContextProvider";
 import Switch from "./Switch";
+import movie from "../assets/movielogo.png";
 
 const Navbar = () => {
   const { currentUser } = useContext(AuthContext);
@@ -15,9 +16,9 @@ const Navbar = () => {
   return (
     <>
       <nav className="w-full flex flex-wrap items-center justify-between py-3 bg-gray-900 text-white shadow-lg navbar navbar-expand-lg fixed-top">
-        <div className="container-fluid w-full flex items-center justify-between px-6">
+        <div className="container-fluid w-full flex items-center justify-between px-6" >
           <Link className="text-2xl  pr-2 font-semibold" to="/">
-            React Movie App
+            <img src={movie} width='170' alt="logo" />
           </Link>
           {/* Collapsible wrapper */}
           {/* Right elements */}
