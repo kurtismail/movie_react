@@ -77,7 +77,7 @@ Build a Movie App using ReactJS.
 - Step 2 : Signup `https://firebase.google.com/` and create new app in firebase.
   Firebase is a backed application development software that enables developers to develop iOS, Android and Web apps. It provides developers with a variety of tools and services to help them develop quality apps, grow their user base, and earn profit. It is built on Google’s infrastructure. Firebase offers a number of services, including: analytics,authentication, cloud messaging, realtime database, performance and test lab. Firebase is categorized as a NoSQL database program, which stores data in JSON-like documents.
 
-![Project 005 Snapshot](firebase-create-app.gif)
+![Project Snapshot](firebase-create-app.gif)
 
 - Step 3 : Use `https://firebase.google.com/docs/auth/web/start` and create `Authentication` operations.
   - Add the Firebase Authentication JS codes in your `firebase.js` file and initialize Firebase Authentication:
