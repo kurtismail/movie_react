@@ -18,14 +18,14 @@ const Navbar = () => {
       <nav className="w-full flex flex-wrap items-center justify-between py-3 bg-gray-900 text-white shadow-lg navbar navbar-expand-lg fixed-top">
         <div className="container-fluid w-full flex items-center justify-between px-6" >
           <Link className="text-2xl  pr-2 font-semibold" to="/">
-            <img src={movie} width='170' alt="logo" />
+            <img src={movie} width='100' alt="logo" />
           </Link>
           {/* Collapsible wrapper */}
           {/* Right elements */}
           <div className="flex items-center relative">
             {/* Icon */}
             {currentUser && (
-              <h5 className="mr-2 capitalize">{currentUser?.displayName}</h5>
+              <h5 className="mr-2 capitalize">{currentUser?.firstname}</h5>
             )}
             <Switch />
             <div className="dropdown relative">

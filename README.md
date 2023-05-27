@@ -41,11 +41,11 @@ SOLUTION
 └── yarn.lock
 ```
 
-![Project 006 Snapshot](movie-app_structure.png)
+![Project Snapshot](movie-app_structure.png)
 
 ## Expected Outcome
 
-![Project 006 Snapshot](movie-app.gif)
+![Project Snapshot](movie-app.gif)
 
 ## Objective
 
